@@ -1,0 +1,14 @@
+Ch Nitish Chandra (120050071)
+
+Output will be written to a file output.csv. It prints accuracy on the
+entire training set (without cross validation)
+
+Implementation Details:
+Backpropagation with cross entropy error function is minimised using stochastic gradient descent. Following are the parameters:
+- Network Architecture
+  1 input layer, 1 hidden layer of 10 nodes, 1 output layer
+- Training rate eta = 0.05
+- Each input row is used 10 times for training
+
+Feature Selection:
+57th feature is a scaled version of 55th feature. To reduce the number of variables, I removed the 57th feature.
